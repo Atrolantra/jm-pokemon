@@ -1,0 +1,165 @@
+body {
+  background-color: slategrey;
+  color: white;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #57606e;
+  padding: 30px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-container-selector {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.main-container-viewer {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 54px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+
+a {
+  color: white;
+  font-size: 22px;
+  padding: 12px;
+  opacity: 0.3;
+}
+
+.currentLink {
+  opacity: 1;
+}
+
+#navigation {
+    margin: auto;
+    padding-left: 50%;
+}
+
+#pokemon-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding-inline-start: 0;
+}
+
+#current-team-selector {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  padding-inline-start: 0;
+}
+
+#current-team-viewer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding-inline-start: 0;
+}
+
+#display-counter {
+  text-align: center;
+  font-size: 65px;
+}
+
+#team-size {
+  text-align: center;
+  font-size: 65px;
+}
+
+.team-container {
+  display: grid;
+  position: fixed;
+  right: 10%;
+}
+
+.card {
+  list-style: none;
+  padding: 30px;
+  background-color: #f4f4f4;
+  color: #222;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.team-card {
+  list-style: none;
+  padding: 0px;
+  background-color: #f4f4f4;
+  color: #222;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #d9d9d9;
+}
+
+.team-card:hover {
+  background-color: #d9d9d9;
+}
+
+.pokemon-number {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.pokemon-type {
+  text-transform: capitalize;
+  margin-top: 0px;
+  color: #555555;
+  font-weight: lighter;
+}
+
+.pokemon-uses {
+  text-transform: capitalize;
+  margin-top: 0px;
+  color: #555555;
+  font-weight: lighter;
+}
+
+.card-image {
+  height: 200px;
+}
+
+.team-card-image {
+  height: 80px;
+}
+
+.remove-from-party-button {
+  height: 32px;
+}

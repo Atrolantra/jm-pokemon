@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/header') %>
+</head>
+<div class="header">
+  <h1>Pokemon team builder</h1>
+  <div id="navigation">
+    <a href="index.ejs">Team Picker</a>
+    <a class="currentLink" href="party_page.ejs">Party Page</a>
+  </div>
+</div>
+<body>
+  <div class="main-container-viewer">
+      <h2>Current team</h2>
+      <ul id="current-team-viewer"></ul>
+    <h2 id="team-size">x / x</h2>
+  </div>
+<script src="js/common.js"></script>
+<script src="js/team_viewer.js"></script>
+</body>
+</html>
